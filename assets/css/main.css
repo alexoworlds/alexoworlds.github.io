@@ -3288,3 +3288,15 @@ input, select, textarea {
 body {
   padding-top: 70px; /* adjust depending on nav height */
 }
+
+a {
+    text-decoration: none !important; /* normal text underline */
+    border: none !important;          /* remove any border-based underline */
+    box-shadow: none !important;      /* remove shadow-based underline */
+}
+
+a.underline {
+    text-decoration: none !important;  /* re-enable underline */
+    border: none !important;                /* remove fake borders if any */
+    box-shadow: 0 0.4px 0px 0 !important;            /* remove fake shadows if any */
+}
