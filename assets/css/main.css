@@ -3262,12 +3262,12 @@ input, select, textarea {
 
 .nav-left {
   position: relative;
-  top: -0.2em; /* moves down */
+  top: -0.05em; /* moves down */
 }
 
 .nav-right {
   position: relative;
-  top: 0.1em; /* moves up */
+  top: 0.2em; /* moves up */
 }
 
 .nav-right img {
@@ -3299,4 +3299,29 @@ a.underline {
     text-decoration: none !important;  /* re-enable underline */
     border: none !important;                /* remove fake borders if any */
     box-shadow: 0 0.4px 0px 0 !important;            /* remove fake shadows if any */
+}
+
+.doi-button {
+    display: inline-block;
+    padding: 0em 1.3em;
+    background-color: transparent;   /* fully transparent initially */
+    color: #dc0093;                  /* text color */
+    border: 1px solid #dc0093 !important;       /* pink border */
+    font-size: 0.85em;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+
+.doi-button:hover {
+    background-color: #dc009317; /* fill with pink on hover */
+    color: #ffffff !important;
+}
+
+.doi-buttons {
+    display: flex;          /* makes the buttons horizontal */
+    gap: 0.5em;             /* space between buttons */
+    margin-top: -2em;
 }
