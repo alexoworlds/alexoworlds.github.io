@@ -3305,8 +3305,8 @@ a.underline {
     display: inline-block;
     padding: 0em 1.3em;
     background-color: transparent;   /* fully transparent initially */
-    color: #dc0093;                  /* text color */
-    border: 1px solid #dc0093 !important;       /* pink border */
+    color: #c1ff72;                  /* text color */
+    border: 1px solid #c1ff72 !important;       /* pink border */
     font-size: 0.85em;
     font-weight: normal;
     text-decoration: none;
@@ -3316,7 +3316,7 @@ a.underline {
 }
 
 .doi-button:hover {
-    background-color: #dc009317; /* fill with pink on hover */
+    background-color: #c2ff721b; /* fill with pink on hover */
     color: #ffffff !important;
 }
 
@@ -3324,4 +3324,18 @@ a.underline {
     display: flex;          /* makes the buttons horizontal */
     gap: 0.5em;             /* space between buttons */
     margin-top: -2em;
+}
+
+.hover-card {
+    background-color: #00000000;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+    padding: 28px 34px;
+    box-shadow: 0 2px 8px #c1ff72;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px #c1ff72;
 }
