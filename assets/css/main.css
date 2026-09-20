@@ -3344,7 +3344,7 @@ a.underline {
     box-shadow: 0 6px 16px #c1ff72;
 }
 
-body {
+/* body {
     position: relative;
 }
 
@@ -3360,4 +3360,4 @@ body::before {
     background-position: center;
     opacity: 0.23;
     z-index: -1;
-}
+} */
